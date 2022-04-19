@@ -1,6 +1,6 @@
 
 describe("Testing countAllfromTown function", function(){
-    it("this test was successful !",function(){
+    it("this checks for plates from Stellenbosch & Kuilriver!",function(){
         var fromStellies = countAllFromTown('CL 124,CY 567,CL 345, CJ 456,CL 341','CL');
         //fromStellies should contains
         assert.equal(fromStellies, 3)

@@ -1,5 +1,5 @@
 describe("Testing the TransportFee function",function(){
-    it("this test was successful !",function(){
+    it("this returns the fare to be paid for a specific time of the day!",function(){
 assert.equal(transportFee('morning'), 'R20');
 
 assert.equal(transportFee('afternoon'), 'R10');

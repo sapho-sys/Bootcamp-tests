@@ -1,5 +1,5 @@
 describe("Testing Registration function", function(){
-    it("this test was successful !", function(){
+    it("this looks for a town of the abbreviated plates!", function(){
 assert.equal(regCheck('DC 55 YU GP', 'GP'), true);
 assert.equal(regCheck('DC 55 YU GP', 'EC'), false);
 
