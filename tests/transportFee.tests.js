@@ -4,8 +4,12 @@ assert.equal(transportFee('morning'), 'R20');
 
 assert.equal(transportFee('afternoon'), 'R10');
 
-assert.equal(transportFee('nightshift'), 'free', 'for night shift return free');
 
+
+
+    })
+    it('this will return a free journey for the nightshift',function(){
+        assert.equal(transportFee('nightshift'), 'free', 'for night shift return free');
 
 
     })

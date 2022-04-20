@@ -6,4 +6,9 @@ describe('Testing Greetings function' , function(){
     assert.equal(greet('Sam'), 'Hello, Sam');
     });
 
+    it('this functions greets surnames!' , function(){
+        
+        assert.equal(greet('Nkunzi'), 'Hello, Nkunzi');
+    });
+
 });

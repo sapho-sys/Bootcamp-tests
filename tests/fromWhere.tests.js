@@ -8,8 +8,12 @@ var fromStellies = allFromTown('CL 124,CY 567,CL 345, CJ 456,CL 341','CJ');
 assert.deepEqual(fromStellies, ['CJ 456']);
 
 
-var fromKuilsriver = allFromTown('CL 124,CY 567,CL 345, CJ 456,CL 341','CF');
-assert.deepEqual(fromKuilsriver, []);
 
     });
+    it('return empty array for plates that are not from Stellies',function(){
+        var fromKuilsriver = allFromTown('CL 124,CY 567,CL 345, CJ 456,CL 341','CF');
+        assert.deepEqual(fromKuilsriver, []);
+
+
+    })
 });
