@@ -8,13 +8,19 @@ assert.equal(regCheck('5566 L', 'M'), false);
 
 
     })
-    it('this will return true if there are plates from Eastern Cape & Mpumalanga',function(){
-assert.equal(regCheck('ERT 123 EC', 'EC'), true);
-assert.equal(regCheck('ERT 123 EC', 'GP'), false);
+    it('this will return true if there are plates from Eastern Cape',function(){
+     assert.equal(regCheck('ERT 123 EC', 'EC'), true);
+     assert.equal(regCheck('ERT 123 EC', 'GP'), false);
 
-assert.equal(regCheck('FGT 123 MP', 'MP'), true);
-assert.equal(regCheck('FGT 123 MM', 'MP'), false);
 
 
     })
+
+it('this will return true if there are plates from Mpumalanga',function(){
+
+     assert.equal(regCheck('FGT 123 MP', 'MP'), true);
+     assert.equal(regCheck('FGT 123 MM', 'MP'), false);
+
+
+})
 })

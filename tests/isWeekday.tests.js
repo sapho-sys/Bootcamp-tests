@@ -13,4 +13,16 @@ assert.equal(isWeekday('Friday'), true);
         assert.equal(isWeekday('Sunday'), false);
 
     })
+    it("this will test for lowercase inputs",function(){
+        assert.equal(isWeekday('monday'), true);
+        assert.equal(isWeekday('tuesday'), true);
+        assert.equal(isWeekday('wednesday'), true);
+        assert.equal(isWeekday('thursday'), true);
+        assert.equal(isWeekday('friday'), true);
+        assert.equal(isWeekday('saturday'), false);
+        assert.equal(isWeekday('sunday'), false);
+
+
+
+    })
 });

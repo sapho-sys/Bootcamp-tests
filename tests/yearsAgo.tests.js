@@ -8,4 +8,8 @@ describe("Testing yearsAgo function", function(){
         assert.equal((new Date().getFullYear() - 2000), yearsAgo(2000));
 
     })
+    it('this returns the difference in years since the year 2010',function(){
+        assert.equal((new Date().getFullYear() - 2010), yearsAgo(2010));
+
+    })
 });

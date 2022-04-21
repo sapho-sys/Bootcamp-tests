@@ -8,5 +8,9 @@ describe('Testing isFromBellville function' , function(){
         assert.equal(isFromBellville('CJ 123'), false);
 
     })
+    it('returns false if theres no plate requested',function(){
+        assert.equal(isFromBellville(''), false);
+
+    })
 
 });

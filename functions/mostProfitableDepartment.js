@@ -37,6 +37,17 @@ var salesData2 = [
     {department : 'steelwork', sales : 1500, day : 'Wednesday'},
     {department : 'carpentry', sales : 8009, day : 'Wednesday'},
 ];
+var salesData3=[
+  {department : 'electronics', sales : 4500, day : 'Monday'},
+    {department : 'outdoor', sales : 1500, day : 'Monday'},
+    {department : 'carpentry', sales : 5500, day : 'Monday'},
+    {department : 'steelwork', sales : 7500, day : 'Tuesday'},
+    {department : 'outdoor', sales : 2505, day : 'Tuesday'},
+    {department : 'carpentry', sales : 1540, day : 'Tuesday'},
+    {department : 'hardware', sales : 1500, day : 'Wednesday'},
+    {department : 'carpentry', sales : 8009, day : 'Wednesday'},
+
+]
 
 
 
