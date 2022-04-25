@@ -1,7 +1,7 @@
 
 describe("Testing countAllfromTown function", function(){
     it("this will return 3 for plates from Stellenbosch!",function(){
-        var fromStellies = countAllFromTown('CL 124,CY 567,CL 345, CJ 456,CL 341','CL');
+        var fromStellies = countAllFromTown('CL 124,CY 567,CL 345,CJ 456,CL 341','CL');
         //fromStellies should contains
         assert.equal(fromStellies, 3)
         
@@ -17,7 +17,7 @@ describe("Testing countAllfromTown function", function(){
 
 
         it('this will return 0 for blank request',function(){
-            var fromKuilsriver = countAllFromTown('','CF');
+            var fromKuilsriver = countAllFromTown('CA 124,CY 567,CY 345,CJ 456,CA 341','CF');
             //fromKuilsriver should contains
             assert.equal(fromKuilsriver, 0)
         });
