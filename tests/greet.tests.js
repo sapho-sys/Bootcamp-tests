@@ -8,7 +8,7 @@ describe('Testing Greetings function' , function(){
     it('this functions greets specific names' , function(){
         
     assert.equal(greet('Sapho'), 'Hello, Sapho');
-    assert.equal(greet('Sammy'), 'Hello, Sam');
+    assert.equal(greet('Sammy'), 'Hello, Sammy');
     });
 
 
